@@ -1,0 +1,39 @@
+#include<stdio.h>
+void main()
+{
+	char s[20],s2[20];
+	int count1=0,count2=0,i=0;
+printf(" Enter string ");
+scanf("%[^\n]s",&s);
+printf("enter 2nd string ");
+scanf("%[^\n]s",&s2);
+printf("given string is\n %s",s);
+printf("given 2nd string is\n %s",s2);
+while(s[i]!=NULL)
+{
+	count1++;
+}
+i=0;
+while(s2[i]!=NULL)
+{
+count2++;
+}
+if(count1>count2)
+{
+printf("string is gratter more %d charecter ",count1-count2);
+}
+else if(count2>count1)
+{
+	printf("Strinf 2nd is gretter more %d cahrecter ",count2-count1);
+}
+else
+{
+printf("Both string is ");
+}
+}
+}
+}
+
+
+
+
