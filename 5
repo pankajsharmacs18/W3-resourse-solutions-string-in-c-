@@ -1,0 +1,22 @@
+#include<stdio.h>
+void main()
+{
+	char s[20];
+	int count=0,i=0;
+printf(" Enter string ");
+
+scanf("%[^\n]s",&s);
+printf("given string is %s",s);
+while(s[i]!=NULL)
+{
+	if(s[i]!=' ')
+		{
+			count++;
+		}
+		i++;
+}
+printf("\nworlds present is %d",count);
+}
+
+
+
