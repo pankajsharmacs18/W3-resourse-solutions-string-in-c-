@@ -1,0 +1,15 @@
+#include<stdio.h>
+void main()
+{
+	char s[20];
+	int count=0;
+printf(" Enter string ");
+int i=0;
+scanf("%[^\n]s",&s);
+while(s[i]!=NULL){
+count++;
+i++;
+}
+printf("%d",count);
+printf("%s",s);
+}
